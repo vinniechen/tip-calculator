@@ -12,12 +12,19 @@ class ViewController: UIViewController {
     @IBOutlet weak var tipLabel: UILabel!
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var billTextField: UITextField!
-
     @IBOutlet weak var tipControl: UISegmentedControl!
+    
+    @IBOutlet weak var settingsBarButton: UIBarButtonItem!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // Sets the title in the Navigation Bar
+        self.title = "Tip Calculator"
+    
+        // Does not show settings button in nav bar ?
+        self.navigationItem.setRightBarButton(settingsBarButton, animated: false)
+        
     }
 
     override func didReceiveMemoryWarning() {
