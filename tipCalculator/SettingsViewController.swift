@@ -10,6 +10,11 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var firstTextField: UITextField!
+    @IBOutlet weak var secondTextField: UITextField!
+    @IBOutlet weak var thirdTextField: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -19,6 +24,18 @@ class SettingsViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    // Saves the new percentages
+    @IBAction func saveButtonTouch(_ sender: Any) {
+        if !(firstTextField.text?.isEmpty)! {
+            tipPercentages[0] = Double(firstTextField.text!)!
+        }
+        if !(secondTextField.text?.isEmpty)! {
+            tipPercentages[1] = Double(secondTextField.text!)!
+        }
+        if !(thirdTextField.text?.isEmpty)! {
+            tipPercentages[2] = Double(thirdTextField.text!)!
+        }
     }
     
 

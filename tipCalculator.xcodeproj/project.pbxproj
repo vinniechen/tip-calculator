@@ -101,8 +101,8 @@
 			children = (
 				33DD8BB01E1589B1005DDC6F /* AppDelegate.swift */,
 				33DD8BB21E1589B1005DDC6F /* ViewController.swift */,
-				33DD8BB41E1589B1005DDC6F /* Main.storyboard */,
 				33DD8BDE1E176460005DDC6F /* SettingsViewController.swift */,
+				33DD8BB41E1589B1005DDC6F /* Main.storyboard */,
 				33DD8BB71E1589B1005DDC6F /* Assets.xcassets */,
 				33DD8BB91E1589B1005DDC6F /* LaunchScreen.storyboard */,
 				33DD8BBC1E1589B1005DDC6F /* Info.plist */,
@@ -510,6 +510,7 @@
 				33DD8BD71E1589B2005DDC6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33DD8BD81E1589B2005DDC6F /* Build configuration list for PBXNativeTarget "tipCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +519,7 @@
 				33DD8BDA1E1589B2005DDC6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33DD8BDB1E1589B2005DDC6F /* Build configuration list for PBXNativeTarget "tipCalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +528,7 @@
 				33DD8BDD1E1589B2005DDC6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
